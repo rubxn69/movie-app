@@ -1,10 +1,13 @@
 {
+  "homepage": "https://rubxn69.github.io/movie-app/",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
